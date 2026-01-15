@@ -295,15 +295,15 @@ body {
     }
     25% {
         transform: translate(15px, -20px) rotate(2deg);
-        opacity: 0.18;
+        opacity: 0.5;
     }
     50% {
         transform: translate(-10px, 10px) rotate(-1deg);
-        opacity: 0.1;
+        opacity: 0.35;
     }
     75% {
         transform: translate(20px, 5px) rotate(1deg);
-        opacity: 0.15;
+        opacity: 0.45;
     }
 }
 
@@ -326,8 +326,8 @@ body {
 .bird-track img {
     height: 80px;
     width: auto;
-    opacity: 0.25;
-    filter: grayscale(20%);
+    opacity: 0.5;
+    filter: grayscale(0%);
     transition: opacity var(--duration-normal) var(--ease-out),
                 filter var(--duration-normal) var(--ease-out);
 }
